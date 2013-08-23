@@ -1,0 +1,13 @@
+name: Timed
+package-name: aldryn-timed
+url: https://github.com/aldryn/aldryn-timed
+author:
+  name: Divio AG
+  url: https://www.divio.ch
+installed-apps:
+  - aldryn_timed
+version: 0.0.1
+description: Timed addon for django CMS
+license:
+  name: BSD
+  text: !literal-include LICENSE.txt
