@@ -1,0 +1,14 @@
+{% load i18n cms_tags %}
+
+{% if visible or visible_in_edit %}
+    <div class="plugin-timed">
+        {% if visible_in_edit %}
+            <div style="border: dotted 1px black">
+                <h2>{% trans "Preview of hidden content" %}</h2>
+        {% endif %}
+        {% for plugin in child_plugins %}
+            {% render_plugin plugin %}
+        {% endfor %}
+        {% if visible_in_edit %}</div>{% endif %}
+    </div>
+{% endif %}

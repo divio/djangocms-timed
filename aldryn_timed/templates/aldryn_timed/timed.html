@@ -1,9 +1,0 @@
-{% load cms_tags %}
-
-<div class="plugin-timed">
-    {% if instance.is_published %}
-	    {% for plugin in instance.child_plugin_instances %}
-            {% render_plugin plugin %}
-        {% endfor %}
-    {% endif %}
-</div>
