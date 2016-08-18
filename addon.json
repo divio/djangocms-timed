@@ -1,0 +1,6 @@
+{
+    "package-name": "aldryn-timed",
+    "installed-apps": [
+        "aldryn_timed"
+    ]
+}
