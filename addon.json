@@ -1,6 +1,6 @@
 {
-    "package-name": "aldryn-timed",
+    "package-name": "djangocms-timed",
     "installed-apps": [
-        "aldryn_timed"
+        "djangocms_timed"
     ]
 }

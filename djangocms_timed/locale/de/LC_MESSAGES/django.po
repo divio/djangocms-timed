@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-19 17:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Timed content"
+msgstr "Zeitgesteuerter Inhalt"
+
+msgid "Visible since"
+msgstr "Sichtbar seit"
+
+msgid "Visible until"
+msgstr "Sichtbar bis"
+
+msgid "Always hidden"
+msgstr "Immer versteckt"
+
+#, python-brace-format
+msgid "Visible since {start} until {end}"
+msgstr "Sichtbar seit {start} bis {end}"
+
+#, python-brace-format
+msgid "Hidden since {end}"
+msgstr "Versteckt seit {end}"
+
+#, python-brace-format
+msgid "Hidden until {start}"
+msgstr "Versteckt bis {start}"
+
+msgid "Visible since {start}"
+msgstr "Sichtbar seit {start}"
+
+msgid "Visible until {end}"
+msgstr "Sichtbar bis {end}"
+
+msgid "Always visible"
+msgstr "Immer sichtbar"
+
+msgid "<Empty>"
+msgstr ""
+
+msgid "The start datetime has to be earlier than the end datetime."
+msgstr "Die Startzeit muss früher sein als die Endzeit"
+
+msgid "Preview of hidden content"
+msgstr "Vorschau des versteckten Inhaltes"
